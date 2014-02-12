@@ -10,7 +10,8 @@ function E_axis = E200_cam_E_cal(data,y,res)
 	E0 = 20.35;
 	% y0 determined from ROI'd centroid of E200_11469
 	% step 6, image 32.
-	y0 = 476.5593;
+	% y0 = 476.5593;
+	y0 = 456.149271788;
 	res=res*1e-6;
 	
 	% ====================================
